@@ -1,0 +1,23 @@
+.article {
+    width: 700px;
+    height: 375px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 33px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(233,28,28, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 0px rgba(255,255,255,0.4) solid;
+    border-bottom: 0px rgba(40,40,40,0.35) solid;
+    border-right: 0px rgba(40,40,40,0.35) solid;
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: 1px solid #000;
+}
